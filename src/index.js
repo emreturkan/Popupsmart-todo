@@ -6,7 +6,8 @@ import { TodoContextProvider } from './store/TodoContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
- 
-        <App />
+        <TodoContextProvider>
+                <App />
+        </TodoContextProvider>
  
 );
